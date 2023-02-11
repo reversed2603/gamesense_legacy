@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Entrypoint</Filter>
+    </ClCompile>
+    <ClCompile Include="source.cpp">
+      <Filter>Starting</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Framework\Button\Button.cpp" />
+    <ClCompile Include="Menu\Framework\Checkbox\Checkbox.cpp" />
+    <ClCompile Include="Menu\Framework\Dropdown\Dropdown.cpp" />
+    <ClCompile Include="Menu\Framework\Form\Form.cpp" />
+    <ClCompile Include="Menu\Framework\Group\Group.cpp" />
+    <ClCompile Include="Menu\Framework\Label\Label.cpp" />
+    <ClCompile Include="Menu\Framework\Listbox\Listbox.cpp" />
+    <ClCompile Include="Menu\Framework\MultiDropdown\MultiDropdown.cpp" />
+    <ClCompile Include="Menu\Framework\Slider\Slider.cpp" />
+    <ClCompile Include="Menu\Framework\GUI.cpp" />
+    <ClCompile Include="Menu\Elements.cpp" />
+    <ClCompile Include="Menu\Helpers\InputHelper.cpp" />
+    <ClCompile Include="Menu\Framework\Textbox\Textbox.cpp" />
+    <ClCompile Include="Libraries\minhook-master\src\buffer.c" />
+    <ClCompile Include="Libraries\minhook-master\src\hde\hde32.c" />
+    <ClCompile Include="Libraries\minhook-master\src\hde\hde64.c" />
+    <ClCompile Include="Libraries\minhook-master\src\hook.c" />
+    <ClCompile Include="Libraries\minhook-master\src\trampoline.c" />
+    <ClCompile Include="Features\Rage\AntiAim.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Rage\Autowall.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Rage\AnimationSystem.cpp">
+      <Filter>Features\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\BeginFrame.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\CreateMove.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\DispatchUserMessage.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\DoPostScreenEffects.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\EmitSound.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\DrawModel.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\GetScreenAspectRatio.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\InterpolateServerEntities.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\IsBoxVisible.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\IsConnected.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\IsPlayingDemo.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\ListLeavesInBox.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\LockCursor.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\OnSoundStarted.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\OverrideView.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\PacketStart.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\PaintTraverse.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\PlayerHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\SendNetMsg.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\SetReservationCookie.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\RunCommand.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\RenderView.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\CClientState.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Valve\characterset.cpp">
+      <Filter>SDK\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\CPlayerResource.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\CUserCmd.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\entity.cpp">
+      <Filter>SDK\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Miscellaneous\GameEvent.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\IBaseClientDll.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\IClientEntityList.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\IConVar.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\IEngineTrace.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\IGameMovement.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\IInput.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\IMemAlloc.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\IMoveHelper.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\IPanel.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\IPrediction.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\ISurface.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\IVEngineClient.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\weapon.cpp">
+      <Filter>SDK\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Rage\LagCompensation.cpp">
+      <Filter>Features\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Rage\Ragebot.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Config.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\core.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\sdk.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Displacement.cpp">
+      <Filter>License</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\GrenadePrediction.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Valve\vector.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Valve\vector2d.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Valve\vector4d.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Miscellaneous\SkinChanger.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Rage\TickbaseShift.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\CrashHandler.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\EventLogger.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\Player.cpp">
+      <Filter>SDK\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\PlayerAnimState.cpp">
+      <Filter>SDK\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Valve\UtlBuffer.cpp">
+      <Filter>SDK\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Rage\Resolver.cpp">
+      <Filter>Features\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Utils\PatternScan.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Utils\Print.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Utils\vmt_swap.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Valve\qangle.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Valve\Matrix.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Classes\PropManager.cpp">
+      <Filter>SDK\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\InputSys.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\Exports.cpp" />
+    <ClCompile Include="SDK\Classes\IInputSystem.cpp" />
+    <ClCompile Include="Utils\Math.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Miscellaneous\KitParser.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Valve\platform.cpp">
+      <Filter>SDK\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\LogSystem.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\RecvProxyHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Render.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\RetrieveMessage.cpp" />
+    <ClCompile Include="Loader\Security\Security.cpp" />
+    <ClCompile Include="Features\Scripting\Scripting.cpp" />
+    <ClCompile Include="Libraries\LUA\lua\lapi.c" />
+    <ClCompile Include="Libraries\LUA\lua\lauxlib.c" />
+    <ClCompile Include="Libraries\LUA\lua\lbaselib.c" />
+    <ClCompile Include="Libraries\LUA\lua\lcode.c" />
+    <ClCompile Include="Libraries\LUA\lua\lcorolib.c" />
+    <ClCompile Include="Libraries\LUA\lua\lctype.c" />
+    <ClCompile Include="Libraries\LUA\lua\ldblib.c" />
+    <ClCompile Include="Libraries\LUA\lua\ldebug.c" />
+    <ClCompile Include="Libraries\LUA\lua\ldo.c" />
+    <ClCompile Include="Libraries\LUA\lua\ldump.c" />
+    <ClCompile Include="Libraries\LUA\lua\lfunc.c" />
+    <ClCompile Include="Libraries\LUA\lua\lgc.c" />
+    <ClCompile Include="Libraries\LUA\lua\linit.c" />
+    <ClCompile Include="Libraries\LUA\lua\liolib.c" />
+    <ClCompile Include="Libraries\LUA\lua\llex.c" />
+    <ClCompile Include="Libraries\LUA\lua\lmathlib.c" />
+    <ClCompile Include="Libraries\LUA\lua\lmem.c" />
+    <ClCompile Include="Libraries\LUA\lua\loadlib.c" />
+    <ClCompile Include="Libraries\LUA\lua\lobject.c" />
+    <ClCompile Include="Libraries\LUA\lua\lopcodes.c" />
+    <ClCompile Include="Libraries\LUA\lua\loslib.c" />
+    <ClCompile Include="Libraries\LUA\lua\lparser.c" />
+    <ClCompile Include="Libraries\LUA\lua\lstate.c" />
+    <ClCompile Include="Libraries\LUA\lua\lstring.c" />
+    <ClCompile Include="Libraries\LUA\lua\lstrlib.c" />
+    <ClCompile Include="Libraries\LUA\lua\ltable.c" />
+    <ClCompile Include="Libraries\LUA\lua\ltablib.c" />
+    <ClCompile Include="Libraries\LUA\lua\ltm.c" />
+    <ClCompile Include="Libraries\LUA\lua\luac.c" />
+    <ClCompile Include="Libraries\LUA\lua\lundump.c" />
+    <ClCompile Include="Libraries\LUA\lua\lutf8lib.c" />
+    <ClCompile Include="Libraries\LUA\lua\lvm.c" />
+    <ClCompile Include="Libraries\LUA\lua\lzio.c" />
+    <ClCompile Include="Utils\Threading\packed_heap.cpp" />
+    <ClCompile Include="Utils\Threading\atomic_lock.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Threading\semaphores.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Threading\mutex.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Threading\threading.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Threading\shared_mutex.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\ProcessInterpolatedList.cpp" />
+    <ClCompile Include="Hooking\Hooks\ModifyEyePosition.cpp" />
+    <ClCompile Include="Hooking\Hooks\AddBoxOverlay.cpp" />
+    <ClCompile Include="Hooking\Hooks\GameTrace.cpp" />
+    <ClCompile Include="Hooking\Hooks\OverrideConfig.cpp" />
+    <ClCompile Include="Hooking\Hooks\DrawSetColor.cpp" />
+    <ClCompile Include="Hooking\Hooks\BuildTransformations.cpp" />
+    <ClCompile Include="Hooking\Hooks\StandardBlendingRules.cpp" />
+    <ClCompile Include="Hooking\Hooks\IsRenderableInPVS.cpp" />
+    <ClCompile Include="Hooking\Hooks\PhysicsSimulate.cpp" />
+    <ClCompile Include="Hooking\Hooks\CalcViewBob.cpp" />
+    <ClCompile Include="Hooking\Hooks\IsHltv.cpp" />
+    <ClCompile Include="Hooking\Hooks\UpdateClientSideAnimation.cpp" />
+    <ClCompile Include="Hooking\Hooks\VertexBufferLock.cpp" />
+    <ClCompile Include="Hooking\Hooks\ProcessTempEntities.cpp" />
+    <ClCompile Include="Hooking\Hooks\DoProceduralFootPlant.cpp" />
+    <ClCompile Include="Features\Rage\ServerAnimations.cpp" />
+    <ClCompile Include="SDK\variables.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking\Hooks\FrameStageNotify.cpp" />
+    <ClCompile Include="Features\Miscellaneous\Movement.cpp" />
+    <ClCompile Include="Features\Visuals\Visuals.cpp" />
+    <ClCompile Include="Features\Visuals\Chams.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Rage\FakeLag.cpp" />
+    <ClCompile Include="SDK\Classes\CCSGameRules.cpp" />
+    <ClCompile Include="Features\Miscellaneous\Miscellaneous.cpp" />
+    <ClCompile Include="Features\Visuals\Glow.cpp" />
+    <ClCompile Include="Features\Visuals\Hitmarker.cpp" />
+    <ClCompile Include="Hooking\Hooks\WriteUsercmdDeltaToBuffer.cpp" />
+    <ClCompile Include="Features\Rage\EnginePrediction.cpp">
+      <Filter>Features\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Rage\ShotHandling.cpp" />
+    <ClCompile Include="Hooking\Hooks\Reset.cpp" />
+    <ClCompile Include="Hooking\Hooks\Present.cpp" />
+    <ClCompile Include="Renderer\Wrapper\sprite\sprite.cpp" />
+    <ClCompile Include="Menu\Framework\Hotkey\Hotkey.cpp" />
+    <ClCompile Include="Menu\Framework\ColorPicker\ColorPicker.cpp" />
+    <ClCompile Include="Hooking\Hooks\ShouldSkipAnimationFrame.cpp" />
+    <ClCompile Include="Hooking\Hooks\ProcessMovement.cpp" />
+    <ClCompile Include="Features\Visuals\BulletTracers.cpp" />
+    <ClCompile Include="Features\Rage\AlternativeAttack.cpp" />
+    <ClCompile Include="Hooking\Hooks\C_BaseAnimating__DrawModel.cpp" />
+    <ClCompile Include="Hooking\Hooks\SendDatagram.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source.hpp">
+      <Filter>Starting</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Textures\titlebar.h" />
+    <ClInclude Include="Menu\Framework\Button\Button.h" />
+    <ClInclude Include="Menu\Framework\Checkbox\Checkbox.h" />
+    <ClInclude Include="Menu\Framework\Dropdown\Dropdown.h" />
+    <ClInclude Include="Menu\Framework\Form\Form.h" />
+    <ClInclude Include="Menu\Framework\Group\Group.h" />
+    <ClInclude Include="Menu\Framework\Label\Label.h" />
+    <ClInclude Include="Menu\Framework\Listbox\Listbox.h" />
+    <ClInclude Include="Menu\Framework\MultiDropdown\MultiDropdown.h" />
+    <ClInclude Include="Menu\Framework\Slider\Slider.h" />
+    <ClInclude Include="Menu\Framework\GUI.h" />
+    <ClInclude Include="Menu\Helpers\Easing.h" />
+    <ClInclude Include="Menu\Elements.h" />
+    <ClInclude Include="Menu\Helpers\InputHelper.h" />
+    <ClInclude Include="Utils\base64.h" />
+    <ClInclude Include="Menu\Framework\Textbox\Textbox.h" />
+    <ClInclude Include="Libraries\freetype\freetype\config\ftconfig.h" />
+    <ClInclude Include="Libraries\freetype\freetype\config\ftheader.h" />
+    <ClInclude Include="Libraries\freetype\freetype\config\ftmodule.h" />
+    <ClInclude Include="Libraries\freetype\freetype\config\ftoption.h" />
+    <ClInclude Include="Libraries\freetype\freetype\config\ftstdlib.h" />
+    <ClInclude Include="Libraries\freetype\freetype\freetype.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftadvanc.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftbbox.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftbdf.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftbitmap.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftbzip2.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftcache.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftchapters.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftcid.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftdriver.h" />
+    <ClInclude Include="Libraries\freetype\freetype\fterrdef.h" />
+    <ClInclude Include="Libraries\freetype\freetype\fterrors.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftfntfmt.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftgasp.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftglyph.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftgxval.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftgzip.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftimage.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftincrem.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftlcdfil.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftlist.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftlzw.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftmac.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftmm.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftmodapi.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftmoderr.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftotval.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftoutln.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftparams.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftpfr.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftrender.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftsizes.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftsnames.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftstroke.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftsynth.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftsystem.h" />
+    <ClInclude Include="Libraries\freetype\freetype\fttrigon.h" />
+    <ClInclude Include="Libraries\freetype\freetype\fttypes.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ftwinfnt.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\autohint.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\cffotypes.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\cfftypes.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftcalc.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftdebug.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftdrv.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftgloadr.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\fthash.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftmemory.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftobjs.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftpic.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftpsprop.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftrfork.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftserv.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftstream.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\fttrace.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\ftvalid.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\internal.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\psaux.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\pshints.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svbdf.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svcfftl.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svcid.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svfntfmt.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svgldict.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svgxval.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svkern.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svmetric.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svmm.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svotval.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svpfr.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svpostnm.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svprop.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svpscmap.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svpsinfo.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svsfnt.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svttcmap.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svtteng.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svttglyf.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\services\svwinfnt.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\sfnt.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\t1types.h" />
+    <ClInclude Include="Libraries\freetype\freetype\internal\tttypes.h" />
+    <ClInclude Include="Libraries\freetype\freetype\t1tables.h" />
+    <ClInclude Include="Libraries\freetype\freetype\ttnameid.h" />
+    <ClInclude Include="Libraries\freetype\freetype\tttables.h" />
+    <ClInclude Include="Libraries\freetype\freetype\tttags.h" />
+    <ClInclude Include="Libraries\freetype\ft2build.h" />
+    <ClInclude Include="Libraries\minhook-master\include\MinHook.h" />
+    <ClInclude Include="Libraries\minhook-master\src\buffer.h" />
+    <ClInclude Include="Libraries\minhook-master\src\hde\hde32.h" />
+    <ClInclude Include="Libraries\minhook-master\src\hde\hde64.h" />
+    <ClInclude Include="Libraries\minhook-master\src\hde\pstdint.h" />
+    <ClInclude Include="Libraries\minhook-master\src\hde\table32.h" />
+    <ClInclude Include="Libraries\minhook-master\src\hde\table64.h" />
+    <ClInclude Include="Libraries\minhook-master\src\trampoline.h" />
+    <ClInclude Include="Features\Rage\AntiAim.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Rage\AnimationSystem.hpp">
+      <Filter>Features\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\CClientState.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\CBaseHandle.hpp">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\characterset.hpp">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\CPlayerResource.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\CStudioRender.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\CUserCmd.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\entity.hpp">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Miscellaneous\GameEvent.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IAppSystem.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IBaseClientDll.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\ICenterPrint.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IClientEntity.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IClientEntityList.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IClientLeafSystem.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IConVar.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IEngineSound.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IEngineTrace.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IGameEventManager.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IGameMovement.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IInput.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\ILocalize.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IMaterialSystem.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IMemAlloc.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IMoveHelper.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\INetChannel.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\INetMessage.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IPanel.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IPhysics.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IPrediction.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\ISteamClient.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IStudioRender.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\ISurface.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IVDebugOverlay.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IVEngineClient.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IViewRender.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IViewRenderBeams.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IVModelInfo.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IVModelRender.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\IVRenderView.hpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\weapon.hpp">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\WeaponInfo.hpp">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Rage\LagCompensation.hpp">
+      <Filter>Features\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Rage\Ragebot.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Config.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\core.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sdk.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\DataMap.hpp">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Displacement.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Definitions.hpp">
+      <Filter>SDK\Other Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\GrenadePrediction.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking\Hooked.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking\Hooker.hpp">
+      <Filter>SDK\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\GlowOutlineEffect.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\vector.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\vector2d.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\vector4d.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Miscellaneous\SkinChanger.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Rage\TickbaseShift.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\Exploits.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\CrashHandler.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\EventLogger.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\Player.hpp">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\PlayerAnimState.hpp">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\UtlBuffer.hpp">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\UtlMap.hpp">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\UtlMemory.hpp">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\UtlVector.hpp">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Rage\Resolver.hpp">
+      <Filter>Features\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Utils\PatternScan.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Utils\vcall.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Utils\Print.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Utils\vmt_swap.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Utils\auto.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\qangle.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\Matrix.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\json.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Utils\os.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\PropManager.hpp">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\InputSys.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\Exports.h" />
+    <ClInclude Include="SDK\Classes\IInputSystem.hpp" />
+    <ClInclude Include="Features\Miscellaneous\KitParser.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\platform.hpp">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\LogSystem.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Valve\recv_swap.hpp">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Render.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\Security\Security.hpp" />
+    <ClInclude Include="Features\Scripting\Scripting.hpp" />
+    <ClInclude Include="Libraries\LUA\lua\lapi.h" />
+    <ClInclude Include="Libraries\LUA\lua\lauxlib.h" />
+    <ClInclude Include="Libraries\LUA\lua\lcode.h" />
+    <ClInclude Include="Libraries\LUA\lua\lctype.h" />
+    <ClInclude Include="Libraries\LUA\lua\ldebug.h" />
+    <ClInclude Include="Libraries\LUA\lua\ldo.h" />
+    <ClInclude Include="Libraries\LUA\lua\lfunc.h" />
+    <ClInclude Include="Libraries\LUA\lua\lgc.h" />
+    <ClInclude Include="Libraries\LUA\lua\ljumptab.h" />
+    <ClInclude Include="Libraries\LUA\lua\llex.h" />
+    <ClInclude Include="Libraries\LUA\lua\llimits.h" />
+    <ClInclude Include="Libraries\LUA\lua\lmem.h" />
+    <ClInclude Include="Libraries\LUA\lua\lobject.h" />
+    <ClInclude Include="Libraries\LUA\lua\lopcodes.h" />
+    <ClInclude Include="Libraries\LUA\lua\lopnames.h" />
+    <ClInclude Include="Libraries\LUA\lua\lparser.h" />
+    <ClInclude Include="Libraries\LUA\lua\lprefix.h" />
+    <ClInclude Include="Libraries\LUA\lua\lstate.h" />
+    <ClInclude Include="Libraries\LUA\lua\lstring.h" />
+    <ClInclude Include="Libraries\LUA\lua\ltable.h" />
+    <ClInclude Include="Libraries\LUA\lua\ltm.h" />
+    <ClInclude Include="Libraries\LUA\lua\lua.h" />
+    <ClInclude Include="Libraries\LUA\lua\lua.hpp" />
+    <ClInclude Include="Libraries\LUA\lua\luaconf.h" />
+    <ClInclude Include="Libraries\LUA\lua\lualib.h" />
+    <ClInclude Include="Libraries\LUA\lua\lundump.h" />
+    <ClInclude Include="Libraries\LUA\lua\lvm.h" />
+    <ClInclude Include="Libraries\LUA\lua\lzio.h" />
+    <ClInclude Include="Libraries\LUA\sol\compatibility\compat-5.3.c.h" />
+    <ClInclude Include="Libraries\LUA\sol\compatibility\compat-5.3.h" />
+    <ClInclude Include="Libraries\LUA\sol\compatibility\compat-5.4.h" />
+    <ClInclude Include="Libraries\LUA\sol\compatibility\lua_version.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\as_args.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\as_returns.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\base_traits.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\bind_traits.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\bytecode.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\call.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\compatibility.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\config.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\coroutine.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\debug.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\demangle.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\deprecate.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\dump_handler.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\ebco.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\environment.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\error.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\error_handler.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\forward.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\forward_detail.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\function.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\function_result.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\function_types.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\function_types_core.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\function_types_overloaded.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\function_types_stateful.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\function_types_stateless.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\function_types_templated.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\in_place.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\inheritance.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\load_result.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\lua_table.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\lua_value.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\make_reference.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\metatable.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\object.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\object_base.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\optional.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\optional_implementation.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\overload.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\pointer_like.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\policies.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\property.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\protect.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\protected_function.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\protected_function_result.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\protected_handler.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\proxy_base.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\raii.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\reference.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\resolve.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\sol.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_check.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_check_get.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_check_get_qualified.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_check_get_unqualified.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_check_qualified.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_check_unqualified.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_core.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_field.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_get.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_get_qualified.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_get_unqualified.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_guard.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_iterator.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_pop.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_probe.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_proxy.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_proxy_base.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_push.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\stack_reference.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\state.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\state_handling.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\state_view.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\string_view.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\table.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\table_core.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\table_iterator.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\table_proxy.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\thread.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\tie.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\traits.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\trampoline.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\tuple.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\types.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\unicode.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\unique_usertype_traits.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\unsafe_function.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\unsafe_function_result.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\userdata.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\usertype.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\usertype_container.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\usertype_container_launch.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\usertype_core.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\usertype_proxy.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\usertype_storage.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\usertype_traits.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\variadic_args.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\variadic_results.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\version.hpp" />
+    <ClInclude Include="Libraries\LUA\sol\wrapper.hpp" />
+    <ClInclude Include="Features\Scripting\Wrappers\render.h" />
+    <ClInclude Include="Features\Scripting\Wrappers\entity.h" />
+    <ClInclude Include="Features\Scripting\Wrappers\interfaces.h" />
+    <ClInclude Include="Utils\Threading\packed_heap.h" />
+    <ClInclude Include="Utils\Threading\atomic_lock.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Threading\semaphores.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Threading\mutex.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Threading\threading.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Threading\shared_mutex.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Includes.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Scripting\Wrappers\exploits.h" />
+    <ClInclude Include="Features\Scripting\Wrappers\penetration.h" />
+    <ClInclude Include="Renderer\Textures\weaponicons.h" />
+    <ClInclude Include="Libraries\stb\stb_image.h" />
+    <ClInclude Include="Libraries\stb\stb_image_resize.h" />
+    <ClInclude Include="Renderer\Textures\checkmark.h" />
+    <ClInclude Include="Renderer\Textures\nigga.h" />
+    <ClInclude Include="Features\Rage\ServerAnimations.hpp" />
+    <ClInclude Include="Utils\extern\FnvHash.hpp">
+      <Filter>Utils\FnvHash</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\extern\lazy_importer.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\extern\syscall.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\extern\XorStr.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\extern\defs.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Math.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\color.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\variables.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Miscellaneous\Movement.hpp" />
+    <ClInclude Include="Features\Visuals\Visuals.hpp" />
+    <ClInclude Include="Features\Visuals\Chams.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Rage\FakeLag.hpp" />
+    <ClInclude Include="SDK\Classes\CCSGameRules.hpp" />
+    <ClInclude Include="SDK\Classes\CFontManager.hpp" />
+    <ClInclude Include="Features\Miscellaneous\Miscellaneous.hpp" />
+    <ClInclude Include="Features\Rage\Autowall.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\Glow.hpp" />
+    <ClInclude Include="Features\Visuals\Hitmarker.hpp" />
+    <ClInclude Include="Features\Rage\EnginePrediction.hpp">
+      <Filter>Features\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Rage\ShotHandling.hpp" />
+    <ClInclude Include="Renderer\Wrapper\font\font.h" />
+    <ClInclude Include="Renderer\Wrapper\sprite\sprite.h" />
+    <ClInclude Include="Menu\Framework\Hotkey\Hotkey.h" />
+    <ClInclude Include="Menu\Framework\ColorPicker\ColorPicker.h" />
+    <ClInclude Include="Features\Visuals\BulletTracers.hpp" />
+    <ClInclude Include="Features\Rage\AlternativeAttack.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Entrypoint">
+      <UniqueIdentifier>{052df92e-4463-4083-89e7-ee5239f9c062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{fc930db6-6e95-4ab2-832d-7ecc30d491e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{d722c2cc-0e96-4a47-9858-33485562f430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Minhook">
+      <UniqueIdentifier>{a303cf48-2b01-4180-b036-7b131e663531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Entity">
+      <UniqueIdentifier>{cc3e1d40-3649-4317-a241-4b24edc0afff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Classes">
+      <UniqueIdentifier>{2c0d8425-76a6-4680-808d-1a0f87d5b177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces">
+      <UniqueIdentifier>{1567dadf-fb50-4ef2-8fc0-7f0d44b3e474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{d3d8577d-2628-4f4e-9ca0-4911e39accd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{1643c623-4794-4867-b12d-c1272a9a3cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protobuf">
+      <UniqueIdentifier>{788ad0b6-59ab-493e-ae97-4e7ebd3c8ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Other Data">
+      <UniqueIdentifier>{beccda33-7e9b-4700-a3a0-5c8b9703713c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Starting">
+      <UniqueIdentifier>{3dcceb96-8e5a-48cd-93c6-afaf4e0e47d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{0773445f-adf6-41a2-b21e-871439699c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\FnvHash">
+      <UniqueIdentifier>{1a1be8ad-12e6-4079-b9aa-3c632acc9647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Secure">
+      <UniqueIdentifier>{5f4e6112-216d-42ad-9aad-a2ea5f451d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Engine">
+      <UniqueIdentifier>{0a8ab0ab-e1fb-4c9e-b65b-38b284ed491e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{e5e18fcc-6b0c-4797-80f2-e0add32e7a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\ImGui">
+      <UniqueIdentifier>{a2e80f61-f3f8-4150-be7a-61de1c1fa2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="License">
+      <UniqueIdentifier>{9b652d1a-4f10-4d23-ac0d-b6609e65744b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{37e10c39-2606-4f55-955f-f25d426f3b21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
